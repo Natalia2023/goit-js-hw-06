@@ -22,3 +22,21 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+.gallery {
+  list-style: none;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
+}
+.picture:hover {
+  box-shadow: 6px 8px 10px rgba(15, 224, 32, 0.16), 6px 8px 10px rgba(0, 0, 0, 0.16),
+    6px 8px 10px rgba(10, 238, 40, 0.829), 6px 8px 10px rgba(0, 0, 0, 0.16);
+  transition: transform 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
